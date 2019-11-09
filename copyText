@@ -1,0 +1,9 @@
+function copytxt() {
+            //获取节点
+            
+            var abc = document.getElementById("txt");
+            window.getSelection().selectAllChildren(abc);
+            document.execCommand("Copy");
+            alert("已复制");
+            
+        }
